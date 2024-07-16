@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -18,8 +18,22 @@ function App() {
           Learn React
         </a>
       </header>
+
     </div>
   );
 }
+
+export default App;
+*/
+
+// src/App.js
+import React from 'react';
+import Calculator from './Components/Calculator.js';
+
+const App = () => (
+  <div>
+    <Calculator />
+  </div>
+);
 
 export default App;
